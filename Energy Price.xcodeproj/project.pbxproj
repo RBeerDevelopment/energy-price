@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		327611212A4D58D90085D2C5 /* PriceChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327611202A4D58D90085D2C5 /* PriceChart.swift */; };
+		327611232A4D5F040085D2C5 /* PriceDetailText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327611222A4D5F040085D2C5 /* PriceDetailText.swift */; };
 		3279B9D12A4AB61F0055D120 /* Energy Price Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 3279B9D02A4AB61F0055D120 /* Energy Price Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		3279B9D62A4AB61F0055D120 /* Energy_PriceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3279B9D52A4AB61F0055D120 /* Energy_PriceApp.swift */; };
 		3279B9D82A4AB61F0055D120 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3279B9D72A4AB61F0055D120 /* ContentView.swift */; };
@@ -15,6 +17,28 @@
 		3279B9E72A4AB6210055D120 /* Energy_Price_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3279B9E62A4AB6210055D120 /* Energy_Price_Watch_AppTests.swift */; };
 		3279B9F12A4AB6210055D120 /* Energy_Price_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3279B9F02A4AB6210055D120 /* Energy_Price_Watch_AppUITests.swift */; };
 		3279B9F32A4AB6210055D120 /* Energy_Price_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3279B9F22A4AB6210055D120 /* Energy_Price_Watch_AppUITestsLaunchTests.swift */; };
+		3279BA042A4AB6F70055D120 /* EnergyPriceResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3279BA032A4AB6F70055D120 /* EnergyPriceResponse.swift */; };
+		32D94A732A516F7A00D9AA8C /* EnergyPriceAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D94A722A516F7A00D9AA8C /* EnergyPriceAppApp.swift */; };
+		32D94A752A516F7A00D9AA8C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D94A742A516F7A00D9AA8C /* ContentView.swift */; };
+		32D94A772A516F7A00D9AA8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32D94A762A516F7A00D9AA8C /* Assets.xcassets */; };
+		32D94A7B2A516F7A00D9AA8C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32D94A7A2A516F7A00D9AA8C /* Preview Assets.xcassets */; };
+		32D94A852A516F7B00D9AA8C /* EnergyPriceAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D94A842A516F7B00D9AA8C /* EnergyPriceAppTests.swift */; };
+		32D94A8F2A516F7B00D9AA8C /* EnergyPriceAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D94A8E2A516F7B00D9AA8C /* EnergyPriceAppUITests.swift */; };
+		32D94A912A516F7B00D9AA8C /* EnergyPriceAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D94A902A516F7B00D9AA8C /* EnergyPriceAppUITestsLaunchTests.swift */; };
+		32E40CC82A4E14E8009A1AF2 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32E40CC72A4E14E8009A1AF2 /* WidgetKit.framework */; };
+		32E40CCA2A4E14E8009A1AF2 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32E40CC92A4E14E8009A1AF2 /* SwiftUI.framework */; };
+		32E40CD72A4E17A7009A1AF2 /* PriceFetch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E40CD62A4E17A7009A1AF2 /* PriceFetch.swift */; };
+		32E40CD82A4E17A7009A1AF2 /* PriceFetch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E40CD62A4E17A7009A1AF2 /* PriceFetch.swift */; };
+		32E40CDA2A4E19DD009A1AF2 /* PriceChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327611202A4D58D90085D2C5 /* PriceChart.swift */; };
+		32E40CE02A4E1DDB009A1AF2 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32E40CC72A4E14E8009A1AF2 /* WidgetKit.framework */; };
+		32E40CE12A4E1DDB009A1AF2 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32E40CC92A4E14E8009A1AF2 /* SwiftUI.framework */; };
+		32E40CE42A4E1DDB009A1AF2 /* EnergyPriceWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E40CE32A4E1DDB009A1AF2 /* EnergyPriceWidget.swift */; };
+		32E40CE62A4E1DDD009A1AF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32E40CE52A4E1DDD009A1AF2 /* Assets.xcassets */; };
+		32E40CEA2A4E1DDD009A1AF2 /* EnergyPriceWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 32E40CDF2A4E1DDB009A1AF2 /* EnergyPriceWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		32E40CEF2A4E1E00009A1AF2 /* EnergyPriceResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3279BA032A4AB6F70055D120 /* EnergyPriceResponse.swift */; };
+		32E40CF02A4E1E07009A1AF2 /* PriceFetch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E40CD62A4E17A7009A1AF2 /* PriceFetch.swift */; };
+		32E40CF12A4E1ECB009A1AF2 /* PriceChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327611202A4D58D90085D2C5 /* PriceChart.swift */; };
+		32E40CF22A4F08BF009A1AF2 /* PriceDetailText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327611222A4D5F040085D2C5 /* PriceDetailText.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +63,27 @@
 			remoteGlobalIDString = 3279B9CF2A4AB61F0055D120;
 			remoteInfo = "Energy Price Watch App";
 		};
+		32D94A812A516F7B00D9AA8C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3279B9C42A4AB61F0055D120 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32D94A6F2A516F7A00D9AA8C;
+			remoteInfo = EnergyPriceApp;
+		};
+		32D94A8B2A516F7B00D9AA8C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3279B9C42A4AB61F0055D120 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32D94A6F2A516F7A00D9AA8C;
+			remoteInfo = EnergyPriceApp;
+		};
+		32E40CE82A4E1DDD009A1AF2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3279B9C42A4AB61F0055D120 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32E40CDE2A4E1DDB009A1AF2;
+			remoteInfo = EnergyPriceWidgetExtension;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -53,9 +98,22 @@
 			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		32E40CEE2A4E1DDD009A1AF2 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				32E40CEA2A4E1DDD009A1AF2 /* EnergyPriceWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		327611202A4D58D90085D2C5 /* PriceChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceChart.swift; sourceTree = "<group>"; };
+		327611222A4D5F040085D2C5 /* PriceDetailText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceDetailText.swift; sourceTree = "<group>"; };
 		3279B9CA2A4AB61F0055D120 /* Energy Price.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Energy Price.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3279B9D02A4AB61F0055D120 /* Energy Price Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Energy Price Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3279B9D52A4AB61F0055D120 /* Energy_PriceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Energy_PriceApp.swift; sourceTree = "<group>"; };
@@ -67,6 +125,26 @@
 		3279B9EC2A4AB6210055D120 /* Energy Price Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Energy Price Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3279B9F02A4AB6210055D120 /* Energy_Price_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Energy_Price_Watch_AppUITests.swift; sourceTree = "<group>"; };
 		3279B9F22A4AB6210055D120 /* Energy_Price_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Energy_Price_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3279BA032A4AB6F70055D120 /* EnergyPriceResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnergyPriceResponse.swift; sourceTree = "<group>"; };
+		32D94A702A516F7A00D9AA8C /* EnergyPriceApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EnergyPriceApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		32D94A722A516F7A00D9AA8C /* EnergyPriceAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnergyPriceAppApp.swift; sourceTree = "<group>"; };
+		32D94A742A516F7A00D9AA8C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		32D94A762A516F7A00D9AA8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		32D94A782A516F7A00D9AA8C /* EnergyPriceApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = EnergyPriceApp.entitlements; sourceTree = "<group>"; };
+		32D94A7A2A516F7A00D9AA8C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		32D94A802A516F7B00D9AA8C /* EnergyPriceAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EnergyPriceAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		32D94A842A516F7B00D9AA8C /* EnergyPriceAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnergyPriceAppTests.swift; sourceTree = "<group>"; };
+		32D94A8A2A516F7B00D9AA8C /* EnergyPriceAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EnergyPriceAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		32D94A8E2A516F7B00D9AA8C /* EnergyPriceAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnergyPriceAppUITests.swift; sourceTree = "<group>"; };
+		32D94A902A516F7B00D9AA8C /* EnergyPriceAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnergyPriceAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		32E40CC52A4E14E8009A1AF2 /* PriceGraphWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = PriceGraphWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		32E40CC72A4E14E8009A1AF2 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		32E40CC92A4E14E8009A1AF2 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		32E40CD62A4E17A7009A1AF2 /* PriceFetch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceFetch.swift; sourceTree = "<group>"; };
+		32E40CDF2A4E1DDB009A1AF2 /* EnergyPriceWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = EnergyPriceWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		32E40CE32A4E1DDB009A1AF2 /* EnergyPriceWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnergyPriceWidget.swift; sourceTree = "<group>"; };
+		32E40CE52A4E1DDD009A1AF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		32E40CE72A4E1DDD009A1AF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +169,45 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		32D94A6D2A516F7A00D9AA8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32D94A7D2A516F7B00D9AA8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32D94A872A516F7B00D9AA8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32E40CC22A4E14E8009A1AF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32E40CCA2A4E14E8009A1AF2 /* SwiftUI.framework in Frameworks */,
+				32E40CC82A4E14E8009A1AF2 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32E40CDC2A4E1DDB009A1AF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32E40CE12A4E1DDB009A1AF2 /* SwiftUI.framework in Frameworks */,
+				32E40CE02A4E1DDB009A1AF2 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -100,6 +217,11 @@
 				3279B9D42A4AB61F0055D120 /* Energy Price Watch App */,
 				3279B9E52A4AB6210055D120 /* Energy Price Watch AppTests */,
 				3279B9EF2A4AB6210055D120 /* Energy Price Watch AppUITests */,
+				32E40CE22A4E1DDB009A1AF2 /* EnergyPriceWidget */,
+				32D94A712A516F7A00D9AA8C /* EnergyPriceApp */,
+				32D94A832A516F7B00D9AA8C /* EnergyPriceAppTests */,
+				32D94A8D2A516F7B00D9AA8C /* EnergyPriceAppUITests */,
+				32E40CC62A4E14E8009A1AF2 /* Frameworks */,
 				3279B9CB2A4AB61F0055D120 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -111,6 +233,11 @@
 				3279B9D02A4AB61F0055D120 /* Energy Price Watch App.app */,
 				3279B9E22A4AB6210055D120 /* Energy Price Watch AppTests.xctest */,
 				3279B9EC2A4AB6210055D120 /* Energy Price Watch AppUITests.xctest */,
+				32E40CC52A4E14E8009A1AF2 /* PriceGraphWidgetExtension.appex */,
+				32E40CDF2A4E1DDB009A1AF2 /* EnergyPriceWidgetExtension.appex */,
+				32D94A702A516F7A00D9AA8C /* EnergyPriceApp.app */,
+				32D94A802A516F7B00D9AA8C /* EnergyPriceAppTests.xctest */,
+				32D94A8A2A516F7B00D9AA8C /* EnergyPriceAppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -122,6 +249,10 @@
 				3279B9D72A4AB61F0055D120 /* ContentView.swift */,
 				3279B9D92A4AB6210055D120 /* Assets.xcassets */,
 				3279B9DB2A4AB6210055D120 /* Preview Content */,
+				3279BA032A4AB6F70055D120 /* EnergyPriceResponse.swift */,
+				327611202A4D58D90085D2C5 /* PriceChart.swift */,
+				327611222A4D5F040085D2C5 /* PriceDetailText.swift */,
+				32E40CD62A4E17A7009A1AF2 /* PriceFetch.swift */,
 			);
 			path = "Energy Price Watch App";
 			sourceTree = "<group>";
@@ -151,6 +282,62 @@
 			path = "Energy Price Watch AppUITests";
 			sourceTree = "<group>";
 		};
+		32D94A712A516F7A00D9AA8C /* EnergyPriceApp */ = {
+			isa = PBXGroup;
+			children = (
+				32D94A722A516F7A00D9AA8C /* EnergyPriceAppApp.swift */,
+				32D94A742A516F7A00D9AA8C /* ContentView.swift */,
+				32D94A762A516F7A00D9AA8C /* Assets.xcassets */,
+				32D94A782A516F7A00D9AA8C /* EnergyPriceApp.entitlements */,
+				32D94A792A516F7A00D9AA8C /* Preview Content */,
+			);
+			path = EnergyPriceApp;
+			sourceTree = "<group>";
+		};
+		32D94A792A516F7A00D9AA8C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				32D94A7A2A516F7A00D9AA8C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		32D94A832A516F7B00D9AA8C /* EnergyPriceAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				32D94A842A516F7B00D9AA8C /* EnergyPriceAppTests.swift */,
+			);
+			path = EnergyPriceAppTests;
+			sourceTree = "<group>";
+		};
+		32D94A8D2A516F7B00D9AA8C /* EnergyPriceAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				32D94A8E2A516F7B00D9AA8C /* EnergyPriceAppUITests.swift */,
+				32D94A902A516F7B00D9AA8C /* EnergyPriceAppUITestsLaunchTests.swift */,
+			);
+			path = EnergyPriceAppUITests;
+			sourceTree = "<group>";
+		};
+		32E40CC62A4E14E8009A1AF2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				32E40CC72A4E14E8009A1AF2 /* WidgetKit.framework */,
+				32E40CC92A4E14E8009A1AF2 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		32E40CE22A4E1DDB009A1AF2 /* EnergyPriceWidget */ = {
+			isa = PBXGroup;
+			children = (
+				32E40CE32A4E1DDB009A1AF2 /* EnergyPriceWidget.swift */,
+				32E40CE52A4E1DDD009A1AF2 /* Assets.xcassets */,
+				32E40CE72A4E1DDD009A1AF2 /* Info.plist */,
+			);
+			path = EnergyPriceWidget;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -178,10 +365,12 @@
 				3279B9CC2A4AB61F0055D120 /* Sources */,
 				3279B9CD2A4AB61F0055D120 /* Frameworks */,
 				3279B9CE2A4AB61F0055D120 /* Resources */,
+				32E40CEE2A4E1DDD009A1AF2 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				32E40CE92A4E1DDD009A1AF2 /* PBXTargetDependency */,
 			);
 			name = "Energy Price Watch App";
 			productName = "Energy Price Watch App";
@@ -224,6 +413,93 @@
 			productReference = 3279B9EC2A4AB6210055D120 /* Energy Price Watch AppUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		32D94A6F2A516F7A00D9AA8C /* EnergyPriceApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32D94A982A516F7B00D9AA8C /* Build configuration list for PBXNativeTarget "EnergyPriceApp" */;
+			buildPhases = (
+				32D94A6C2A516F7A00D9AA8C /* Sources */,
+				32D94A6D2A516F7A00D9AA8C /* Frameworks */,
+				32D94A6E2A516F7A00D9AA8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EnergyPriceApp;
+			productName = EnergyPriceApp;
+			productReference = 32D94A702A516F7A00D9AA8C /* EnergyPriceApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		32D94A7F2A516F7B00D9AA8C /* EnergyPriceAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32D94A992A516F7B00D9AA8C /* Build configuration list for PBXNativeTarget "EnergyPriceAppTests" */;
+			buildPhases = (
+				32D94A7C2A516F7B00D9AA8C /* Sources */,
+				32D94A7D2A516F7B00D9AA8C /* Frameworks */,
+				32D94A7E2A516F7B00D9AA8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32D94A822A516F7B00D9AA8C /* PBXTargetDependency */,
+			);
+			name = EnergyPriceAppTests;
+			productName = EnergyPriceAppTests;
+			productReference = 32D94A802A516F7B00D9AA8C /* EnergyPriceAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		32D94A892A516F7B00D9AA8C /* EnergyPriceAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32D94A9A2A516F7B00D9AA8C /* Build configuration list for PBXNativeTarget "EnergyPriceAppUITests" */;
+			buildPhases = (
+				32D94A862A516F7B00D9AA8C /* Sources */,
+				32D94A872A516F7B00D9AA8C /* Frameworks */,
+				32D94A882A516F7B00D9AA8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32D94A8C2A516F7B00D9AA8C /* PBXTargetDependency */,
+			);
+			name = EnergyPriceAppUITests;
+			productName = EnergyPriceAppUITests;
+			productReference = 32D94A8A2A516F7B00D9AA8C /* EnergyPriceAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		32E40CC42A4E14E8009A1AF2 /* PriceGraphWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32E40CD32A4E14EA009A1AF2 /* Build configuration list for PBXNativeTarget "PriceGraphWidgetExtension" */;
+			buildPhases = (
+				32E40CC12A4E14E8009A1AF2 /* Sources */,
+				32E40CC22A4E14E8009A1AF2 /* Frameworks */,
+				32E40CC32A4E14E8009A1AF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PriceGraphWidgetExtension;
+			productName = PriceGraphWidgetExtension;
+			productReference = 32E40CC52A4E14E8009A1AF2 /* PriceGraphWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		32E40CDE2A4E1DDB009A1AF2 /* EnergyPriceWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32E40CEB2A4E1DDD009A1AF2 /* Build configuration list for PBXNativeTarget "EnergyPriceWidgetExtension" */;
+			buildPhases = (
+				32E40CDB2A4E1DDB009A1AF2 /* Sources */,
+				32E40CDC2A4E1DDB009A1AF2 /* Frameworks */,
+				32E40CDD2A4E1DDB009A1AF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EnergyPriceWidgetExtension;
+			productName = EnergyPriceWidgetExtension;
+			productReference = 32E40CDF2A4E1DDB009A1AF2 /* EnergyPriceWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -248,6 +524,23 @@
 						CreatedOnToolsVersion = 15.0;
 						TestTargetID = 3279B9CF2A4AB61F0055D120;
 					};
+					32D94A6F2A516F7A00D9AA8C = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					32D94A7F2A516F7B00D9AA8C = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 32D94A6F2A516F7A00D9AA8C;
+					};
+					32D94A892A516F7B00D9AA8C = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 32D94A6F2A516F7A00D9AA8C;
+					};
+					32E40CC42A4E14E8009A1AF2 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					32E40CDE2A4E1DDB009A1AF2 = {
+						CreatedOnToolsVersion = 15.0;
+					};
 				};
 			};
 			buildConfigurationList = 3279B9C72A4AB61F0055D120 /* Build configuration list for PBXProject "Energy Price" */;
@@ -267,6 +560,11 @@
 				3279B9CF2A4AB61F0055D120 /* Energy Price Watch App */,
 				3279B9E12A4AB6210055D120 /* Energy Price Watch AppTests */,
 				3279B9EB2A4AB6210055D120 /* Energy Price Watch AppUITests */,
+				32E40CC42A4E14E8009A1AF2 /* PriceGraphWidgetExtension */,
+				32E40CDE2A4E1DDB009A1AF2 /* EnergyPriceWidgetExtension */,
+				32D94A6F2A516F7A00D9AA8C /* EnergyPriceApp */,
+				32D94A7F2A516F7B00D9AA8C /* EnergyPriceAppTests */,
+				32D94A892A516F7B00D9AA8C /* EnergyPriceAppUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -302,6 +600,44 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		32D94A6E2A516F7A00D9AA8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32D94A7B2A516F7A00D9AA8C /* Preview Assets.xcassets in Resources */,
+				32D94A772A516F7A00D9AA8C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32D94A7E2A516F7B00D9AA8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32D94A882A516F7B00D9AA8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32E40CC32A4E14E8009A1AF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32E40CDD2A4E1DDB009A1AF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32E40CE62A4E1DDD009A1AF2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -309,6 +645,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32E40CD72A4E17A7009A1AF2 /* PriceFetch.swift in Sources */,
+				327611212A4D58D90085D2C5 /* PriceChart.swift in Sources */,
+				327611232A4D5F040085D2C5 /* PriceDetailText.swift in Sources */,
+				3279BA042A4AB6F70055D120 /* EnergyPriceResponse.swift in Sources */,
 				3279B9D82A4AB61F0055D120 /* ContentView.swift in Sources */,
 				3279B9D62A4AB61F0055D120 /* Energy_PriceApp.swift in Sources */,
 			);
@@ -331,6 +671,53 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		32D94A6C2A516F7A00D9AA8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32D94A752A516F7A00D9AA8C /* ContentView.swift in Sources */,
+				32D94A732A516F7A00D9AA8C /* EnergyPriceAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32D94A7C2A516F7B00D9AA8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32D94A852A516F7B00D9AA8C /* EnergyPriceAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32D94A862A516F7B00D9AA8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32D94A912A516F7B00D9AA8C /* EnergyPriceAppUITestsLaunchTests.swift in Sources */,
+				32D94A8F2A516F7B00D9AA8C /* EnergyPriceAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32E40CC12A4E14E8009A1AF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32E40CDA2A4E19DD009A1AF2 /* PriceChart.swift in Sources */,
+				32E40CD82A4E17A7009A1AF2 /* PriceFetch.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32E40CDB2A4E1DDB009A1AF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32E40CF22A4F08BF009A1AF2 /* PriceDetailText.swift in Sources */,
+				32E40CF12A4E1ECB009A1AF2 /* PriceChart.swift in Sources */,
+				32E40CF02A4E1E07009A1AF2 /* PriceFetch.swift in Sources */,
+				32E40CEF2A4E1E00009A1AF2 /* EnergyPriceResponse.swift in Sources */,
+				32E40CE42A4E1DDB009A1AF2 /* EnergyPriceWidget.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -348,6 +735,21 @@
 			isa = PBXTargetDependency;
 			target = 3279B9CF2A4AB61F0055D120 /* Energy Price Watch App */;
 			targetProxy = 3279B9ED2A4AB6210055D120 /* PBXContainerItemProxy */;
+		};
+		32D94A822A516F7B00D9AA8C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32D94A6F2A516F7A00D9AA8C /* EnergyPriceApp */;
+			targetProxy = 32D94A812A516F7B00D9AA8C /* PBXContainerItemProxy */;
+		};
+		32D94A8C2A516F7B00D9AA8C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32D94A6F2A516F7A00D9AA8C /* EnergyPriceApp */;
+			targetProxy = 32D94A8B2A516F7B00D9AA8C /* PBXContainerItemProxy */;
+		};
+		32E40CE92A4E1DDD009A1AF2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32E40CDE2A4E1DDB009A1AF2 /* EnergyPriceWidgetExtension */;
+			targetProxy = 32E40CE82A4E1DDD009A1AF2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -469,6 +871,7 @@
 		3279B9F72A4AB6210055D120 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -499,6 +902,7 @@
 		3279B9F82A4AB6210055D120 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -644,6 +1048,292 @@
 			};
 			name = Release;
 		};
+		32D94A922A516F7B00D9AA8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = EnergyPriceApp/EnergyPriceApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"EnergyPriceApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 4RT84M99N4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = beer.robin.EnergyPriceApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		32D94A932A516F7B00D9AA8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = EnergyPriceApp/EnergyPriceApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"EnergyPriceApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 4RT84M99N4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = beer.robin.EnergyPriceApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		32D94A942A516F7B00D9AA8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4RT84M99N4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = beer.robin.EnergyPriceAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EnergyPriceApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EnergyPriceApp";
+			};
+			name = Debug;
+		};
+		32D94A952A516F7B00D9AA8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4RT84M99N4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = beer.robin.EnergyPriceAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EnergyPriceApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EnergyPriceApp";
+			};
+			name = Release;
+		};
+		32D94A962A516F7B00D9AA8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4RT84M99N4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = beer.robin.EnergyPriceAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EnergyPriceApp;
+			};
+			name = Debug;
+		};
+		32D94A972A516F7B00D9AA8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4RT84M99N4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = beer.robin.EnergyPriceAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EnergyPriceApp;
+			};
+			name = Release;
+		};
+		32E40CD42A4E14EA009A1AF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4RT84M99N4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PriceGraphWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = PriceGraphWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = beer.robin.PriceGraphWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		32E40CD52A4E14EA009A1AF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4RT84M99N4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PriceGraphWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = PriceGraphWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = beer.robin.PriceGraphWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		32E40CEC2A4E1DDD009A1AF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4RT84M99N4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EnergyPriceWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = EnergyPriceWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "beer.robin.Energy-Price.watchkitapp.EnergyPriceWidget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		32E40CED2A4E1DDD009A1AF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4RT84M99N4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EnergyPriceWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = EnergyPriceWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "beer.robin.Energy-Price.watchkitapp.EnergyPriceWidget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -688,6 +1378,51 @@
 			buildConfigurations = (
 				3279BA012A4AB6210055D120 /* Debug */,
 				3279BA022A4AB6210055D120 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32D94A982A516F7B00D9AA8C /* Build configuration list for PBXNativeTarget "EnergyPriceApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32D94A922A516F7B00D9AA8C /* Debug */,
+				32D94A932A516F7B00D9AA8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32D94A992A516F7B00D9AA8C /* Build configuration list for PBXNativeTarget "EnergyPriceAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32D94A942A516F7B00D9AA8C /* Debug */,
+				32D94A952A516F7B00D9AA8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32D94A9A2A516F7B00D9AA8C /* Build configuration list for PBXNativeTarget "EnergyPriceAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32D94A962A516F7B00D9AA8C /* Debug */,
+				32D94A972A516F7B00D9AA8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32E40CD32A4E14EA009A1AF2 /* Build configuration list for PBXNativeTarget "PriceGraphWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32E40CD42A4E14EA009A1AF2 /* Debug */,
+				32E40CD52A4E14EA009A1AF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32E40CEB2A4E1DDD009A1AF2 /* Build configuration list for PBXNativeTarget "EnergyPriceWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32E40CEC2A4E1DDD009A1AF2 /* Debug */,
+				32E40CED2A4E1DDD009A1AF2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
